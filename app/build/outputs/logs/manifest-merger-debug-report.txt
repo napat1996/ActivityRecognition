@@ -1,0 +1,453 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:design:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/design-27.1.0.aar/da524a7d24baaeffaf0f700f8ad0a14a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/90c4a55e632722376c06cd2b36114246/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1816d316d61fb741d442a1ed39cfea46/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e3bb6fe9006a6c525b10fdf5b32ac7c2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0007c42e1fcc6cfa447ffaabb88e78e9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/88f549daa907f910f2ccadff0e546f6a/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-crash:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/037c631f9a2713714dcd4963bab8944a/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/0770ec3d47fc3231d668d03df76d4824/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/fa741cbbf5600a7b2296b6110f38e28c/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0f89073b14b3217ef8c15c2f851740a3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/5ff43729b2a5b6d701b661006574d1bc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/e31f46322374ec5596baf5db40f8f60f/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c021a7955cf547e0257e418d5bc6e402/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/c3057f610534a9e30f11c3e364ae9e86/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/1e2d04259b8af393917e4b5cfef6d4f0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/2d7f4505041f962fe9650e921d8ffdd9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/96b1c3a11dcb4f43bf5d78c139f58deb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/9c96c078a50a951fc3c161c74eec40fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/0f995f2577d6495225538d0c099d9e4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/bf4fb8dbbf534d88c6ea44f242f3e01a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/86d2257f632cbc3e5f1acbf113bfffe7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/07172024b8928782e808b154684539df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/79e450045fe2513b713b2a8c70c07956/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/dd9e49186857105cb7d4c18763fec6cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/transition-27.1.0.aar/439c237978c10ec594b5f6641110ac2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e2a91a8158e0f59519a0dec33feeddda/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/c63d8f8fe5c112af7cbceff1645d7177/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/19ec2f6c53900c52e9a63b3cf9a14b3a/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/511165818260b714228048b788216655/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a126f4ceb10f15ed318e71376bf97451/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c651bb73915238d917d1b74eda49ba72/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5f2abda773db77c905a6f575b0af8bd4/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:5:5-94
+	android:name
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:5:22-91
+application
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:7:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1816d316d61fb741d442a1ed39cfea46/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1816d316d61fb741d442a1ed39cfea46/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e3bb6fe9006a6c525b10fdf5b32ac7c2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e3bb6fe9006a6c525b10fdf5b32ac7c2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0007c42e1fcc6cfa447ffaabb88e78e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0007c42e1fcc6cfa447ffaabb88e78e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crash:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/037c631f9a2713714dcd4963bab8944a/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-crash:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/037c631f9a2713714dcd4963bab8944a/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/fa741cbbf5600a7b2296b6110f38e28c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/fa741cbbf5600a7b2296b6110f38e28c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0f89073b14b3217ef8c15c2f851740a3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0f89073b14b3217ef8c15c2f851740a3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/5ff43729b2a5b6d701b661006574d1bc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/5ff43729b2a5b6d701b661006574d1bc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c021a7955cf547e0257e418d5bc6e402/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c021a7955cf547e0257e418d5bc6e402/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/1e2d04259b8af393917e4b5cfef6d4f0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/1e2d04259b8af393917e4b5cfef6d4f0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/2d7f4505041f962fe9650e921d8ffdd9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/2d7f4505041f962fe9650e921d8ffdd9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/96b1c3a11dcb4f43bf5d78c139f58deb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/96b1c3a11dcb4f43bf5d78c139f58deb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/19ec2f6c53900c52e9a63b3cf9a14b3a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/19ec2f6c53900c52e9a63b3cf9a14b3a/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:13:9-40
+activity#info.androidhive.activityrecognition.MainActivity
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:18:27-74
+service#info.androidhive.activityrecognition.DetectedActivitiesIntentService
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:28:13-60
+service#info.androidhive.activityrecognition.BackgroundDetectedActivitiesService
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:30:9-72
+	android:name
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:30:18-69
+activity#info.androidhive.activityrecognition.Retrieve
+ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:32:9-55
+	android:name
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml:32:19-43
+uses-sdk
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/design-27.1.0.aar/da524a7d24baaeffaf0f700f8ad0a14a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/design-27.1.0.aar/da524a7d24baaeffaf0f700f8ad0a14a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/90c4a55e632722376c06cd2b36114246/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/90c4a55e632722376c06cd2b36114246/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1816d316d61fb741d442a1ed39cfea46/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1816d316d61fb741d442a1ed39cfea46/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e3bb6fe9006a6c525b10fdf5b32ac7c2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/e3bb6fe9006a6c525b10fdf5b32ac7c2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0007c42e1fcc6cfa447ffaabb88e78e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0007c42e1fcc6cfa447ffaabb88e78e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/88f549daa907f910f2ccadff0e546f6a/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/88f549daa907f910f2ccadff0e546f6a/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-crash:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/037c631f9a2713714dcd4963bab8944a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/037c631f9a2713714dcd4963bab8944a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/0770ec3d47fc3231d668d03df76d4824/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/0770ec3d47fc3231d668d03df76d4824/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/fa741cbbf5600a7b2296b6110f38e28c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/fa741cbbf5600a7b2296b6110f38e28c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0f89073b14b3217ef8c15c2f851740a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/0f89073b14b3217ef8c15c2f851740a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/5ff43729b2a5b6d701b661006574d1bc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/5ff43729b2a5b6d701b661006574d1bc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/e31f46322374ec5596baf5db40f8f60f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/e31f46322374ec5596baf5db40f8f60f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c021a7955cf547e0257e418d5bc6e402/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c021a7955cf547e0257e418d5bc6e402/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/c3057f610534a9e30f11c3e364ae9e86/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/c3057f610534a9e30f11c3e364ae9e86/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/1e2d04259b8af393917e4b5cfef6d4f0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/1e2d04259b8af393917e4b5cfef6d4f0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/2d7f4505041f962fe9650e921d8ffdd9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/2d7f4505041f962fe9650e921d8ffdd9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/96b1c3a11dcb4f43bf5d78c139f58deb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/96b1c3a11dcb4f43bf5d78c139f58deb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/9c96c078a50a951fc3c161c74eec40fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/9c96c078a50a951fc3c161c74eec40fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/0f995f2577d6495225538d0c099d9e4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/0f995f2577d6495225538d0c099d9e4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/bf4fb8dbbf534d88c6ea44f242f3e01a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/bf4fb8dbbf534d88c6ea44f242f3e01a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/86d2257f632cbc3e5f1acbf113bfffe7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/86d2257f632cbc3e5f1acbf113bfffe7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/07172024b8928782e808b154684539df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/07172024b8928782e808b154684539df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/79e450045fe2513b713b2a8c70c07956/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/79e450045fe2513b713b2a8c70c07956/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/dd9e49186857105cb7d4c18763fec6cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/dd9e49186857105cb7d4c18763fec6cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/transition-27.1.0.aar/439c237978c10ec594b5f6641110ac2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/transition-27.1.0.aar/439c237978c10ec594b5f6641110ac2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e2a91a8158e0f59519a0dec33feeddda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e2a91a8158e0f59519a0dec33feeddda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/c63d8f8fe5c112af7cbceff1645d7177/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/c63d8f8fe5c112af7cbceff1645d7177/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/19ec2f6c53900c52e9a63b3cf9a14b3a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/19ec2f6c53900c52e9a63b3cf9a14b3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/511165818260b714228048b788216655/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/511165818260b714228048b788216655/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a126f4ceb10f15ed318e71376bf97451/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a126f4ceb10f15ed318e71376bf97451/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c651bb73915238d917d1b74eda49ba72/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c651bb73915238d917d1b74eda49ba72/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5f2abda773db77c905a6f575b0af8bd4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5f2abda773db77c905a6f575b0af8bd4/AndroidManifest.xml:20:5-44
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/napat/Desktop/ActivityRecognition/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-crash:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/037c631f9a2713714dcd4963bab8944a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/e31f46322374ec5596baf5db40f8f60f/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/e31f46322374ec5596baf5db40f8f60f/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/037c631f9a2713714dcd4963bab8944a/AndroidManifest.xml:22:22-64
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/09ae495f5eb33f791d687eb1fd821031/AndroidManifest.xml:33:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/55df4b2137465e0dd7c524ab15f15fe2/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/433dae77c100d8a3c755abe0bfb152bd/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4a48e3c790030aeaf66df4b0a34fd688/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:29:9-63
+permission#info.androidhive.activityrecognition.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:32:22-76
+uses-permission#info.androidhive.activityrecognition.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:info.androidhive.activityrecognition
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:48:27-58
+category#info.androidhive.activityrecognition
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/22dc05f061d2c275e826282f88166612/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/0417321970cb43ed6d527e6930733e22/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/9a4044d7415a904041599893d227bc0b/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/napat/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/439bd378491e621284319e425c8bbc83/AndroidManifest.xml:24:13-58

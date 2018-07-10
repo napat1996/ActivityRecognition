@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">180926005612-6621p8g6p6d18hnl9fglrn49oc525mqk.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://realtimeactivity-3a959.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">180926005612</string>
+    <string name="google_api_key" translatable="false">AIzaSyAvwkGyQxHx4IIgHju7rWH-Kr7vxgcQuHw</string>
+    <string name="google_app_id" translatable="false">1:180926005612:android:69121bde79f393b0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAvwkGyQxHx4IIgHju7rWH-Kr7vxgcQuHw</string>
+    <string name="google_storage_bucket" translatable="false">realtimeactivity-3a959.appspot.com</string>
+    <string name="project_id" translatable="false">realtimeactivity-3a959</string>
+</resources>

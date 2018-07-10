@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "180926005612",
+    "firebase_url": "https://realtimeactivity-3a959.firebaseio.com",
+    "project_id": "realtimeactivity-3a959",
+    "storage_bucket": "realtimeactivity-3a959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180926005612:android:1b8903aaf6c7492d",
+        "android_client_info": {
+          "package_name": "com.kobe.internship.realtimeactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180926005612-0ijfb1c2gpg3dm81e9vqllei8rdu4jck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kobe.internship.realtimeactivity",
+            "certificate_hash": "0cf5dec9166bd1919ba4e1839c0a357906cb97c5"
+          }
+        },
+        {
+          "client_id": "180926005612-6621p8g6p6d18hnl9fglrn49oc525mqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvwkGyQxHx4IIgHju7rWH-Kr7vxgcQuHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180926005612-6621p8g6p6d18hnl9fglrn49oc525mqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180926005612:android:69121bde79f393b0",
+        "android_client_info": {
+          "package_name": "info.androidhive.activityrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180926005612-lc7mvcis9dg2309c840hapae2oikr2a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.androidhive.activityrecognition",
+            "certificate_hash": "0cf5dec9166bd1919ba4e1839c0a357906cb97c5"
+          }
+        },
+        {
+          "client_id": "180926005612-6621p8g6p6d18hnl9fglrn49oc525mqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvwkGyQxHx4IIgHju7rWH-Kr7vxgcQuHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180926005612-6621p8g6p6d18hnl9fglrn49oc525mqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

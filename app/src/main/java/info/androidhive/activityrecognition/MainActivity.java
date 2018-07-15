@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity{
     private ImageView imgActivity;
     private Button btnStartTrcking, btnStopTracking, btnSendData;
     private DatabaseReference mDatabase, mRootref;
-        Calendar calendar = Calendar.getInstance();
-        java.util.Date now = calendar.getTime();
-        java.sql.Timestamp start = new java.sql.Timestamp(now.getTime());
+    Calendar calendar = Calendar.getInstance();
+    java.util.Date now = calendar.getTime();
+    java.sql.Timestamp start = new java.sql.Timestamp(now.getTime());
     java.sql.Timestamp end = new java.sql.Timestamp(now.getTime());
     private String startTime = start.toString() ;
     private String endTime = startTime;
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         mRootref = FirebaseDatabase.getInstance().getReference();
-        mRootref.child("User").removeValue();
+        //mRootref.child("User").removeValue();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity{
         imgActivity = findViewById(R.id.img_activity);
 
 //        btnSendData = (Button) findViewById(R.id.btn_send_data);
-         btnStartTrcking = findViewById(R.id.btn_start_tracking);
-         btnStopTracking = findViewById(R.id.btn_stop_tracking);
+        btnStartTrcking = findViewById(R.id.btn_start_tracking);
+        btnStopTracking = findViewById(R.id.btn_stop_tracking);
 
 //        btnSendData.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -80,7 +80,12 @@ public class MainActivity extends AppCompatActivity{
         btnStartTrcking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startTracking();
+                Intent intent = new Intent(MainActivity.this,Retrieve.class);
+                startActivity(intent);
+
+                //setContentView(R.layout.activity_retrieve);
+
+                //startTracking();
                 Log.e(TAG, "onClick: .....START TRACKING.....");
             }
         });
@@ -110,7 +115,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     String newLabel = "";
-    String label="";
+    String label="", oldLabel ="";
     int count1 = 0,count2 = 0,count3 = 0,count4 = 0,count5 = 0,count6 = 0,count7 = 0,count = 0;
 
     private void handleUserActivity(int type, int confidence) {
@@ -125,17 +130,17 @@ public class MainActivity extends AppCompatActivity{
 
         int icon = R.drawable.ic_still;
 
-            switch (type) {
-                case DetectedActivity.IN_VEHICLE: {
-                    newLabel = getString(R.string.activity_in_vehicle);
-                    icon = R.drawable.ic_driving;
-                    break;
-                }
-                case DetectedActivity.ON_BICYCLE: {
-                    newLabel = getString(R.string.activity_on_bicycle);
-                    icon = R.drawable.ic_on_bicycle;
-                    break;
-                }
+        switch (type) {
+            case DetectedActivity.IN_VEHICLE: {
+                newLabel = getString(R.string.activity_in_vehicle);
+                icon = R.drawable.ic_driving;
+                break;
+            }
+            case DetectedActivity.ON_BICYCLE: {
+                newLabel = getString(R.string.activity_on_bicycle);
+                icon = R.drawable.ic_on_bicycle;
+                break;
+            }
 //            case DetectedActivity.ON_FOOT: {
 //                label = getString(R.string.activity_on_foot);
 //                icon = R.drawable.ic_walking;
@@ -143,147 +148,179 @@ public class MainActivity extends AppCompatActivity{
 //                count = count3;
 //                break;
 //            }
-                case DetectedActivity.RUNNING: {
+            case DetectedActivity.RUNNING: {
+                newLabel = getString(R.string.activity_running);
+                icon = R.drawable.ic_running;
+                break;
+            }
+            case DetectedActivity.STILL: {
+                newLabel = getString(R.string.activity_still);
+                icon = R.drawable.ic_still;
+                break;
+            }
+            case DetectedActivity.TILTING: {
+//            if (oldLabel == getString(R.string.activity_in_vehicle)) {
+//                newLabel = getString(R.string.activity_in_vehicle);
+//                icon = R.drawable.ic_driving;
+//            } else if (oldLabel == getString(R.string.activity_on_bicycle)) {
+//                newLabel = getString(R.string.activity_on_bicycle);
+//                icon = R.drawable.ic_on_bicycle;
+//            } else if (oldLabel == getString(R.string.activity_running)) {
+//                newLabel = getString(R.string.activity_running);
+//                icon = R.drawable.ic_running;
+//            } else if (oldLabel == getString(R.string.activity_walking)) {
+//                newLabel = getString(R.string.activity_walking);
+//                icon = R.drawable.ic_walking;
+//            } else if (oldLabel == getString(R.string.activity_still)) {
+//                newLabel = getString(R.string.activity_still);
+//                icon = R.drawable.ic_still;
+//            } else if (oldLabel == getString(R.string.activity_tilting)) {
+                newLabel = getString(R.string.activity_tilting);
+                icon = R.drawable.ic_tilting;
+//            }
+            }
+            case DetectedActivity.WALKING: {
+                newLabel = getString(R.string.activity_walking);
+                icon = R.drawable.ic_walking;
+                break;
+            }
+            case DetectedActivity.UNKNOWN: {
+                if (oldLabel == getString(R.string.activity_in_vehicle)) {
+                    newLabel = getString(R.string.activity_in_vehicle);
+                    icon = R.drawable.ic_driving;
+                } else if (oldLabel == getString(R.string.activity_on_bicycle)) {
+                    newLabel = getString(R.string.activity_on_bicycle);
+                    icon = R.drawable.ic_on_bicycle;
+                } else if (oldLabel == getString(R.string.activity_running)) {
                     newLabel = getString(R.string.activity_running);
                     icon = R.drawable.ic_running;
-                    break;
-                }
-                case DetectedActivity.STILL: {
-                    newLabel = getString(R.string.activity_still);
-                    icon = R.drawable.ic_still;
-                    break;
-                }
-                case DetectedActivity.TILTING: {
-                    newLabel  = getString(R.string.activity_tilting);
-                    icon = R.drawable.ic_tilting;
-                    break;
-                }
-                case DetectedActivity.WALKING: {
+                } else if (oldLabel == getString(R.string.activity_walking)) {
                     newLabel = getString(R.string.activity_walking);
                     icon = R.drawable.ic_walking;
-                    break;
+                } else if (oldLabel == getString(R.string.activity_still)) {
+                    newLabel = getString(R.string.activity_still);
+                    icon = R.drawable.ic_still;
+                } else if (oldLabel == getString(R.string.activity_tilting)) {
+                    newLabel = getString(R.string.activity_tilting);
+                    icon = R.drawable.ic_tilting;
                 }
-//                case DetectedActivity.UNKNOWN: {
-//                    label = getString(R.string.activity_unknown);
-//                    break;
-//                }
+                break;
             }
+        }
 
-            //String strTime = currentTimestamp.toString();
+        //String strTime = currentTimestamp.toString();
 
 
-            Log.d(TAG, "handleUserActivity: " + "Current Timestamp: " + currentTimestamp + " User activity: " + label + ", Confidence: " + confidence + " Count: " + count);
-            if (confidence > Constants.CONFIDENCE) {
-                txtActivity.setText(label);
-                txtConfidence.setText("Confidence: " + confidence);
-                txtTime.setText("Time: " + currentTimestamp);
-                imgActivity.setImageResource(icon);
+        Log.d(TAG, "handleUserActivity: " + "Current Timestamp: " + currentTimestamp + " User activity: " + label + ", Confidence: " + confidence + " Count: " + count);
+        if (confidence > Constants.CONFIDENCE) {
+            txtActivity.setText(label);
+            txtConfidence.setText("Confidence: " + confidence);
+            txtTime.setText("Time: " + currentTimestamp);
+            imgActivity.setImageResource(icon);
 
 //                Log.d(TAG, "START : "+startTime+" STOP : "+endTime);
-               if (label != newLabel) {
-                   DatabaseReference oldRef = mRootref.child(label);
-                   Log.e(TAG, "****************************************** old: "+label+" new: "+newLabel );
-                   if(label == getString(R.string.activity_in_vehicle)){
-                       oldRef.child(count1 + "stopTime ").setValue(currentTimestamp.toString()); //add start Time to DB
-                   }else if(label == getString(R.string.activity_on_bicycle)){
-                       oldRef.child(count2 + "stopTime ").setValue(currentTimestamp.toString());
-                   }else if(label == getString(R.string.activity_running)){
-                       oldRef.child(count4 + "stopTime ").setValue(currentTimestamp.toString());
-                   }else if(label == getString(R.string.activity_still)){
-                       oldRef.child(count5 + "stopTime ").setValue(currentTimestamp.toString());
-                   }else if(label == getString(R.string.activity_tilting)){
-                       oldRef.child(count6 + "stopTime ").setValue(currentTimestamp.toString());
-                   }else if(label == getString(R.string.activity_walking)){
-                       oldRef.child(count7 + "stopTime ").setValue(currentTimestamp.toString());
-                   }
-                    label = newLabel;
-                   DatabaseReference childRef = mRootref.child(newLabel);
-                   endTime = currentTimestamp.toString();
-                   switch (newLabel) {
-                       case "In Vehicle": {
-                           label = getString(R.string.activity_in_vehicle);
-                      //     DatabaseReference newChildRef = mRootref.child(newLabel);
-                           Log.e(TAG, "newlabel: " + newLabel);
-                         //  newChildRef.child(count1 + "stopTime ").setValue(startTime); //add start Time to DB
-                           count1++;
-                           childRef.child(count1 + "startTime ").setValue(endTime);
-                            newLabel = label;
-                           break;
-                       }
-                       case "On Bicycle": {
-                           label = getString(R.string.activity_on_bicycle);
-                        //   DatabaseReference newChildRef = mRootref.child(newLabel);
-                           Log.e(TAG, "newlabel: " + newLabel);
-                         //  newChildRef.child(count2 + "stopTime ").setValue(startTime); //add start Time to DB
-                           count2++;
-                           childRef.child(count2 + "startTime ").setValue(endTime);
-                           newLabel = label;
-                           break;
-                       }
-                       case "Running": {
-                           label = getString(R.string.activity_running);
-                       //    DatabaseReference newChildRef = mRootref.child(newLabel);
-                           Log.e(TAG, "newlabel: " + newLabel);
-                         //  newChildRef.child(count4 + "stopTime ").setValue(startTime); //add start Time to DB
-                           count4++;
-                           childRef.child(count4 + "startTime ").setValue(endTime);
-                           newLabel = label;
-                           break;
-                       }
-                       case "Still": {
-                           label = getString(R.string.activity_still);
-                    //       DatabaseReference newChildRef = mRootref.child(newLabel);
-                           Log.e(TAG, "newlabel: " + newLabel);
-                         //  newChildRef.child(count5 + "stopTime ").setValue(startTime); //add start Time to DB
-                           count5++;
-                           childRef.child(count5 + "startTime ").setValue(endTime);
-                           newLabel = label;
-                           break;
-                       }
-                       case "Tilting": {
-                           label = getString(R.string.activity_tilting);
-                       //    DatabaseReference newChildRef = mRootref.child(newLabel);
-                           Log.e(TAG, "newlabel: " + newLabel);
-                        //   newChildRef.child(count6 + "stopTime ").setValue(startTime); //add start Time to DB
-                           count6++;
-                           childRef.child(count6 + "startTime ").setValue(endTime);
-                           newLabel = label;
-                           break;
-                       }
-                       case "walking": {
-                           label = getString(R.string.activity_walking);
-                       //    DatabaseReference newChildRef = mRootref.child(newLabel);
-                           Log.e(TAG, "newlabel: " + newLabel);
-                        //   newChildRef.child(count7 + "stopTime ").setValue(startTime); //add start Time to DB
-                           count7++;
-                           childRef.child(count7 + "startTime ").setValue(endTime);
-                           newLabel = label;
-                           break;
-                       }
-                   }
+            if (label != newLabel) {
 
-                   //add stop Time to DB
-                   //mRootref.child("0Time").push().setValue(strTime + " " + confidence);
-                   //mRootref.child("0Type").push().setValue(label + " " + confidence);
+                //ADD STOP TIME TO DATABASE
+                DatabaseReference oldRef = mRootref.child(label);
+                Log.e(TAG, "****************************************** old: " + label + " new: " + newLabel);
+                if (label == getString(R.string.activity_in_vehicle)) {
+                    oldRef.child(count1 + "").child("stopTime").setValue(currentTimestamp.toString());
+                } else if (label == getString(R.string.activity_on_bicycle)) {
+                    oldRef.child(count2 + "").child("stopTime").setValue(currentTimestamp.toString());
+                } else if (label == getString(R.string.activity_running)) {
+                    oldRef.child(count4 + "").child("stopTime").setValue(currentTimestamp.toString());
+                } else if (label == getString(R.string.activity_still)) {
+                    oldRef.child(count5 + "").child("stopTime").setValue(currentTimestamp.toString());
+                } else if (label == getString(R.string.activity_walking)) {
+                    oldRef.child(count7 + "").child("stopTime").setValue(currentTimestamp.toString());
+                } else if (label == getString(R.string.activity_tilting)) {
+                    oldRef.child(count6 + "").child("stopTime").setValue(currentTimestamp.toString());
+                }
+                label = newLabel;
+                DatabaseReference childRef = mRootref.child(newLabel);
+                endTime = currentTimestamp.toString();
+
+                //ADD START TIME TO DATABASE
+                switch (newLabel) {
+                    case "In Vehicle": {
+                        label = getString(R.string.activity_in_vehicle);
+                        //     DatabaseReference newChildRef = mRootref.child(newLabel);
+                        Log.e(TAG, "newlabel: " + newLabel);
+                        //  newChildRef.child(count1 + "stopTime ").setValue(startTime); //add start Time to DB
+                        count1++;
+                        childRef.child(count1 + "").child("startTime").setValue(endTime);
+                        newLabel = label;
+                        break;
+                    }
+                    case "On Bicycle": {
+                        label = getString(R.string.activity_on_bicycle);
+                        //   DatabaseReference newChildRef = mRootref.child(newLabel);
+                        Log.e(TAG, "newlabel: " + newLabel);
+                        //  newChildRef.child(count2 + "stopTime ").setValue(startTime); //add start Time to DB
+                        count2++;
+                        childRef.child(count2 + "").child("startTime").setValue(endTime);
+                        newLabel = label;
+                        break;
+                    }
+                    case "Running": {
+                        label = getString(R.string.activity_running);
+                        //    DatabaseReference newChildRef = mRootref.child(newLabel);
+                        Log.e(TAG, "newlabel: " + newLabel);
+                        //  newChildRef.child(count4 + "stopTime ").setValue(startTime); //add start Time to DB
+                        count4++;
+                        childRef.child(count4 + "").child("startTime").setValue(endTime);
+                        newLabel = label;
+                        break;
+                    }
+                    case "Still": {
+                        label = getString(R.string.activity_still);
+                        //       DatabaseReference newChildRef = mRootref.child(newLabel);
+                        Log.e(TAG, "newlabel: " + newLabel);
+                        //  newChildRef.child(count5 + "stopTime ").setValue(startTime); //add start Time to DB
+                        count5++;
+                        childRef.child(count5 + "").child("startTime").setValue(endTime);
+                        newLabel = label;
+                        break;
+                    }
+                    case "Tilting": {
+                        label = getString(R.string.activity_tilting);
+                        //    DatabaseReference newChildRef = mRootref.child(newLabel);
+                        Log.e(TAG, "newlabel: " + newLabel);
+                        //   newChildRef.child(count6 + "stopTime ").setValue(startTime); //add start Time to DB
+                        count6++;
+                        childRef.child(count6 + "").child("startTime").setValue(endTime);
+                        newLabel = label;
+                        break;
+                    }
+                    case "walking": {
+                        label = getString(R.string.activity_walking);
+                        //    DatabaseReference newChildRef = mRootref.child(newLabel);
+                        Log.e(TAG, "newlabel: " + newLabel);
+                        //   newChildRef.child(count7 + "stopTime ").setValue(startTime); //add start Time to DB
+                        count7++;
+                        childRef.child(count7 + "").child("startTime").setValue(endTime);
+                        newLabel = label;
+                        break;
+                    }
+                }
+
+                //add stop Time to DB
+                //mRootref.child("0Time").push().setValue(strTime + " " + confidence);
+                //mRootref.child("0Type").push().setValue(label + " " + confidence);
 
 //                    Log.e(TAG, "START Timestamp: " + startTime + " User activity: " + label + ", Confidence: " + confidence + " Count:  " + count);
-               }
-
-
-                    Log.e(TAG, "STOP Timestamp: " + endTime
-                            + " User activity: " + label + ", Confidence: " + confidence +" Count: "+count);
-
-                 //   count++;
-//                    startTime = endTime;
-//                    Log.d(TAG, "start time: " + strTime +" newLabel"+ newLabel);
-            }
-                //endTime = strTime;
-                Log.d(TAG, "start: "+ startTime+" stop: "+endTime);
-
             }
 
+
+//        Log.e(TAG, "STOP Timestamp: " + endTime + " User activity: " + label + ", Confidence: " + confidence + " Count: " + count);
+//        Log.d(TAG, "start: " + startTime + " stop: " + endTime);
+
+        }
+        oldLabel = label;
 
         //Log.e(TAG, "User activity: " + label + ", Confidence: " + confidence);
+    }
 
 
 

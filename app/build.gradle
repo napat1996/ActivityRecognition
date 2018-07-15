@@ -34,7 +34,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:16.0.1'
     implementation 'com.google.firebase:firebase-crash:16.0.1'
     implementation 'com.google.firebase:firebase-auth:16.0.1'
-
+  //  implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 //    compile 'com.google.firebase:firebase-database:11.0.4'
 //    compile 'com.google.firebase:firebase-auth:11.0.4'
 //    compile 'com.google.android.gms:play-services-auth:11.4.0'

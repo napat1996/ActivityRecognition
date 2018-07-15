@@ -1,14 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Retrieve">
-    
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+
+            android:id="@+id/label"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="STILL"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listview_still"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="300">
+                <!--android:layout_constraintTop_toTopOf="parent">-->
+
+            </ListView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layout2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/layout1"-->
+        <!--android:orientation="horizontal">-->
+        <!--&lt;!&ndash;android:layout_alignParentLeft="true">&ndash;&gt;-->
+
+        <!--<TextView-->
+
+            <!--android:id="@+id/walking"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:text="WALKING"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold" />-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ListView-->
+                <!--android:id="@+id/listview_walking"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_weight="300">-->
+                <!--&lt;!&ndash;android:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+
+
+            <!--</ListView>-->
+
+        <!--</LinearLayout>-->
+
+
+
+
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layout3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/layout2"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentLeft="true">-->
+
+        <!--<TextView-->
+
+            <!--android:id="@+id/running"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:text="RUNNING"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold" />-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+
+            <!--<ListView-->
+                <!--android:id="@+id/listView_running"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp">-->
+                <!--&lt;!&ndash;android:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+                <!--android:layout_weight="300">-->
+
+            <!--</ListView>-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+</RelativeLayout>
